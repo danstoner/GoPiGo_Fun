@@ -1,5 +1,5 @@
 # GoPiGo_Fun
-playing with GoPiGo robot from Dexter Industries
+Playing with the GoPiGo robot kit from Dexter Industries, powered by Raspberry Pi
 
 
 ## led_cylon.py
