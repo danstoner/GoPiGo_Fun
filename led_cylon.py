@@ -45,7 +45,7 @@ try:
         led_off(LED_R)
         time.sleep(delay)
         led_off(LED_L)
-        time.sleep(.5)
+        time.sleep(delay)
 except KeyboardInterrupt:
     print "Turning off LEDs and shutting down..."
     led_off(LED_L)
