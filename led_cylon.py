@@ -8,7 +8,7 @@ import time
 import argparse
 
 argparser = argparse.ArgumentParser(description='Script to activate GoPiGo LEDs in Cylon visor fashion.')
-argparser.add_argument(-s,"--speed", type=int, help="A number between 1 and 10 to choose the speed of LED on and off action. 1 is fastest, 10 is slowest.")
+argparser.add_argument("-s","--speed", type=int, help="A number between 1 and 10 to choose the speed of LED on and off action. 1 is fastest, 10 is slowest.")
 args = argparser.parse_args()
 
 # default speed
