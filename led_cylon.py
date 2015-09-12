@@ -24,28 +24,28 @@ delay = .01*speed*speed
 
 try:
     while True:
-    print ".",
-    led_on(LED_L)
-    time.sleep(delay)
-    led_on(LED_R)
-    time.sleep(delay)
-    print "."
-    led_off(LED_L)
-    time.sleep(delay)
-    led_off(LED_R)
-    time.sleep(delay)
+        print ".",
+        led_on(LED_L)
+        time.sleep(delay)
+        led_on(LED_R)
+        time.sleep(delay)
+        print "."
+        led_off(LED_L)
+        time.sleep(delay)
+        led_off(LED_R)
+        time.sleep(delay)
 
 
-    print ".",
-    led_on(LED_R)
-    time.sleep(delay)
-    led_on(LED_L)
-    time.sleep(delay)
-    print "."
-    led_off(LED_R)
-    time.sleep(delay)
-    led_off(LED_L)
-    time.sleep(.5)
+        print ".",
+        led_on(LED_R)
+        time.sleep(delay)
+        led_on(LED_L)
+        time.sleep(delay)
+        print "."
+        led_off(LED_R)
+        time.sleep(delay)
+        led_off(LED_L)
+        time.sleep(.5)
 except KeyboardInterrupt:
     print "Turning off LEDs and shutting down..."
     led_off(LED_L)
